@@ -6,12 +6,12 @@ class User {
     }
     login(email, password) {
       if (this.email === email && this.password === password) {
-        console.log('Login bem-sucedido!')
+        console.log('Login sucess!')
       } else {
-        console.log('Login falhou. Verifique suas credenciais.')
+        console.log('Login failed!')
       }
     }
   }
   
-  const user = new User('Everson Sousa', 'evs@example.com', '123456')
-  user.login('evs@example.com', '123456')
+  const user = new User('Everson Sousa', 'evs.link@email.com', '123456')
+  user.login('evs.link@email.com', '123456')
